@@ -6,4 +6,4 @@ app.get('/', (req, res)=>{
     res.json({msg: 'Hello, Backend!'});
 });
 
-app.listen(3000);
+app.listen(4000);
