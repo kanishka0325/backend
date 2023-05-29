@@ -10,4 +10,8 @@ app.get('/test', (req, res)=>{
     res.json({msg: 'Working with CI/CD Push'});
 });
 
+app.get('/my', (req, res)=>{
+    res.json({msg: 'My Works '});
+});
+
 app.listen(4000);
